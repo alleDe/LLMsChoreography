@@ -1,0 +1,97 @@
+Choreography for a NAO robot for the rock song 'Eye of a Hurricane' by Snowflake:
+
+Zero-Shot
+1. [Mandatory_hello]
+2. [arms_dance]
+3. [Mandatory_sit]
+4. [sprinkler_dance]
+5. [right_arm_rotation]
+6. [Mandatory_zero]
+7. [play_guitar]
+8. [move_forward]
+9. [Mandatory_wipe_forehead]
+10. [workout_legs_and_arms]
+11. [diagonal_left]
+12. [Mandatory_stand]
+13. [arms_opening]
+14. [superman]
+15. [rotation_handgun_object]
+16. [diagonal_right]
+17. [union_arms]
+18. [move_backward]
+19. [rotation_foot_left_leg]
+20. [birthday_dance]
+21. [rotation_foot_right_leg]
+22. [double_movement_rotation_of_arms]
+23. [FINAL_crouch]
+
+
+
+Few-Shot
+1. INITIAL_stand_init 
+2. arms_opening 
+3. Mandatory_wipe_forehead 
+4. play_guitar 
+5. move_forward 
+6. superman 
+7. Mandatory_sit
+8. move_backward 
+9. birthday_dance 
+10. Mandatory_hello 
+11. rotation_foot_right_leg 
+12. diagonal_left 
+13. Mandatory_stand 
+14. workout_legs_and_arms
+15. play_guitar
+16. superman 
+17. Mandatory_zero 
+18. move_forward 
+19. rotation_handgun_object 
+20. arms_dance
+21. move_forward 
+22. Mandatory_hello 
+23. sprinkler_dance 
+24. union_arms 
+25. FINAL_crouch
+
+Motivations for the choreography:
+- The choreography starts with the robot in a standing position to match the energy of the rock song.
+- The mandatory positions are incorporated throughout the choreography to ensure they are all used.
+- The intermediate positions are selected to create a dynamic and engaging dance sequence, matching the rhythm and intensity of the rock song.
+- The order of the positions is shuffled to add variety and surprise to the choreography, keeping it interesting for the audience.
+- Each position is chosen to align with the beat, lyrics, and overall feel of the rock song, creating a synchronized and impactful performance.
+
+
+Few-Shot Feedback
+1. INITIAL_stand_init 
+2. arms_opening 
+3. Mandatory_wipe_forehead 
+4. Mandatory_hello 
+5. move_forward 
+6. play_guitar 
+7. superman 
+8. Mandatory_sit 
+9. move_backward 
+10. play_guitar 
+11. birthday_dance 
+12. rotation_foot_right_leg 
+13. diagonal_left 
+14. Mandatory_stand 
+15. workout_legs_and_arms 
+16. superman 
+17. Mandatory_zero 
+18. arms_dance 
+19. move_forward 
+20. rotation_handgun_object 
+21. move_forward 
+22. sprinkler_dance 
+23. union_arms 
+24. FINAL_crouch
+
+Motivations:
+1. The choreography starts with a strong and confident stance in INITIAL_stand_init to set the tone for a rock song.
+2. The use of arms_opening and play_guitar positions early in the choreography aligns with the energetic and dynamic nature of the rock song.
+3. Incorporating superman and birthday_dance adds an element of fun and excitement to the choreography, enhancing the performance aspect.
+4. The use of diagonal_left and rotation_foot_right_leg adds variety and visual interest to the movements, complementing the rhythm and intensity of the music.
+5. The inclusion of workout_legs_and_arms and arms_dance showcases the robot's versatility and agility, enhancing the overall performance.
+6. The choreography ends with the robot transitioning into FINAL_crouch, symbolizing a powerful and impactful conclusion to the performance, in sync with the rock song's energy.

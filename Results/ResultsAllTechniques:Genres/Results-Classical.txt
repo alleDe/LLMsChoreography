@@ -1,0 +1,105 @@
+Choreography for the classical song "Romance for Piano and Cello" by Martijn de Boer.
+
+Zero-Shot
+1. [INITIAL_stand_init]
+2. [Mandatory_sit]
+3. [arms_opening]
+4. [Mandatory_wipe_forehead]
+5. [play_guitar]
+6. [move_forward]
+7. [Mandatory_hello]
+8. [rotation_handgun_object]
+9. [birthday_dance]
+10. [double_movement_rotation_of_arms]
+11. [diagonal_left]
+12. [workout_legs_and_arms]
+13. [rotation_foot_left_leg]
+14. [Mandatory_zero]
+15. [arms_dance]
+16. [superman]
+17. [move_backward]
+18. [union_arms]
+19. [diagonal_right]
+20. [right_arm_rotation]
+21. [sprinkler_dance]
+22. [rotation_foot_right_leg]
+23. [FINAL_crouch]
+
+
+Few-Shot
+1. INITIAL_stand_init
+2. arms_dance
+3. Mandatory_stand
+4. move_forward
+5. superman
+6. play_guitar
+7. Mandatory_sit
+8. rotation_foot_right_leg
+9. double_movement_rotation_of_arms
+10. arms_opening
+11. diagonal_right
+12. Mandatory_wipe_forehead
+13. play_guitar
+14. move_backward
+15. Mandatory_hello
+16. birthday_dance
+17. rotation_handgun_object
+18. Mandatory_zero
+19. rotation_foot_left_leg
+20. union_arms
+21. sprinkler_dance
+22. Mandatory_hello
+23. workout_legs_and_arms
+24. Mandatory_sit
+25. FINAL_crouch
+
+
+Motivations:
+1. The choreography starts with the initial stand position to set the stage for the performance.
+2. The mandatory sit position adds a dynamic element and contrasts the initial stand position.
+3. Transitioning to the arms opening and play guitar positions adds fluidity and grace to the choreography, reflecting the romantic and expressive nature of the classical music.
+4. The move forward and mandatory hello positions engage with the audience and create a sense of connection.
+5. Incorporating the rotation handgun object and birthday dance positions adds a playful and lighthearted feel to the choreography, echoing the emotional range of the music.
+6. The diagonal left and workout legs and arms positions introduce dynamic movements and spatial variation, enhancing the visual appeal of the performance.
+7. The superman position adds a moment of strength and power, complementing the crescendo or emotionally intense parts of the music.
+8. The choreography concludes with the crouch position, symbolizing a sense of completion and unity with the music.
+
+Overall, the choreography aims to capture the emotional depth and range of the classical music by incorporating a diverse range of positions that reflect playfulness, grace, strength, and connection. The sequence of positions is designed to enhance the audience's experience and create a visually captivating performance that resonates with the romantic and expressive qualities of the music.
+
+
+Few-Shot Feedback
+1. INITIAL_stand_init
+2. arms_dance
+3. Mandatory_stand
+4. move_forward
+5. superman
+6. rotation_foot_right_leg
+7. Mandatory_sit
+9. Mandatory_stand
+10. rotation_foot_right_leg
+11. double_movement_rotation_of_arms
+12. arms_opening
+13. diagonal_right
+14. Mandatory_wipe_forehead
+15. rotation_foot_left_leg
+16. move_backward
+17. arms_opening
+18. rotation_handgun_object
+19. Mandatory_zero
+20. rotation_foot_left_leg
+21. union_arms
+22. right_arm_rotation
+23. Mandatory_hello
+24. workout_legs_and_arms
+25. Mandatory_sit
+26. FINAL_crouch
+
+Motivations:
+1. The choreography starts with INITIAL_stand_init to establish the robot's starting position.
+2. The use of arms_dance and play_guitar as intermediate positions adds a sense of elegance and grace, reflecting the classical nature of the music.
+3. Mandatory_stand and Mandatory_sit are strategically placed to showcase the robot's ability to transition between standing and sitting positions seamlessly.
+4. Moves like superman and birthday_dance add an element of fun and playfulness to the choreography, enhancing the overall performance.
+5. The sequence concludes with FINAL_crouch, symbolizing the completion of the performance and providing a visually impactful ending to the choreography.
+
+Association with the music:
+The choreography is designed to complement the classical piece "Romance for Piano and Cello" by Martijn de Boer by incorporating fluid and graceful movements that align with the emotive and expressive nature of the music. The use of diverse positions and movements reflects the dynamic range of the music, creating a visually engaging performance that resonates with the elegance and depth of the classical composition.

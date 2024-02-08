@@ -1,0 +1,63 @@
+Role and context:
+You are a robotic dance choreographer. You will be provided with a set of constraints to be respected for creating the most suitable sequence of positions (i.e., a choreography) for a NAO robot. You will be provided with a musical genre and a time duration for the choreography. Write your output as a list of positions. After creating the choreography, explain your choices as a list of motivations.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Basic prompt:
+Create a choreography as a sequence of positions for a NAO robot, by respecting the following constraints: -Start position: [INITIAL_stand_init].  - End position: [FINAL_crouch]. - Mandatory positions: [Mandatory_sit, Mandatory_wipe_forehead, Mandatory_hello, Mandatory_stand, Mandatory_zero]. -Intermediate positions: [rotation_handgun_object, right_arm_rotation, double_movement_rotation_of _arms, arms_opening, union_arms, move_forward, move_backward, diagonal_left, diagonal_right, rotation_foot_left_leg, rotation_foot_right_leg, play_guitar, arms_dance, birthday_dance, sprinkler_dance, workout_legs_and_arms, superman]. - Use all the mandatory positions. - Use at least 5 intermediate positions. - Positions can be repeated. - Create the choreography for ...
+
+... a folk song, such as 'That's All I Want To Do' by spinningmerkaba, and a time duration of 2 minutes.
+
+... an electronic song, such as 'Coming Home' by Snowflake, and a time duration of 2 minutes.
+
+... a rock song, such as 'Eye of a Hurricane' by Snowflake, and a time duration of 2 minutes.
+
+... a latin song, such as 'Live Your Own Life' by texasradiofish, and a time duration of 2 minutes.
+
+... a classical song, such as 'Romance for Piano and Cello' by Martijn de Boer, and a time duration of 2 minutes.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Human example FOLK:
+1. INITIAL_stand_init, 2. Mandatory_zero, 3. union_arms, 4. birthday_dance, 5. move_backward, 6. Mandatory_sit, 7. play_guitar, 8. move_forward, 9. move_backward, 10. Mandatory_stand, 11. Mandatory_wipe_forehead, 12. workout_legs_and_arms, 13. sprinkler_dance, 14. Superman, 15. play_guitar, 16. diagonal_left, 17. move_backward, 18. Mandatory_sit, 19. Mandatory_stand, 20. Mandatory_hello, 21. Mandatory_hello, 22. superman, 23. FINAL_crouch.
+
+Human example ELECTRONIC:
+1. INITIAL_stand_init, 2. Mandatory_hello, 3. Mandatory_stand, 4. Mandatory_hello, 5. Mandatory_stand, 6. Mandatory_hello, 7. move_forward, 8. rotation_foot_right_leg, 9. superman, 10. union_arms, 11. Mandatory_sit, 12. Mandatory_wipe_forhead, 13. workout_legs_and_arms, 14. move_backward, 15. move_forward, 16. move_backward, 17. sprinkler, 18. Mandatory_zero, 19. superman, 20. rotation_handgun_object, 21. move_backward, 22. move_forward, 23. move_backward, 24. FINAL_crouch.
+
+Human example ROCK:
+1. INITIAL_stand_init, 2. move_forward, 3. Mandatory_sit, 4. play_guitar, 5. Mandatory_wipe_forhead, 6. superman, 7. Mandatory_zero, 8. Mandatory_hello, 9. Mandatory_sit, 10. Mandatory_stand, 11. Mandatory_wipe_forhead, 12. superman, 13. Mandatory_sit, 14. Mandatory_hello, 15. superman, 16. rotation_foot_right_leg, 17. sprinkler, 18. move_forward, 19. Mandatory_hello, 20. Mandatory_sit, 21. Mandatory_stand, 22. superman, 23. union_arms, 24. move_forward, 25. FINAL_crouch.
+
+Human example LATIN:
+1. INITIAL_stand_init, 2. union_arms, 3. Mandatory_sit, 4. rotation_handgun_object, 5. Mandatory_sit, 6. rotation_handgun_object, 7. Mandatory_sit, 8. rotation_handgun_object, 9. rotation_foot_left_leg, 10. Mandatory_hello, 11. sprinkler, 12. Mandatory_stand, 13. Mandatory_wipe_forhead, 14. Mandatory_zero, 15. workout_legs_and_arms, 16. Mandatory_wipe_forhead, 17. Mandatory_wipe_forhead, 18. Mandatory_wipe_forhead, 19. Mandatory_wipe_forhead, 20. Mandatory_sit, 21. rotation_handgun_object, 22. Mandatory_sit, 23. rotation_handgun_object, 24. FINAL_crouch. 
+
+Human example CLASSICAL:
+1. INITIAL_stand_init, 2. diagonal_right, 3. Mandatory_stand, 4. diagonal_left, 5. Mandatory_hello, 6. superman, 7. Mandatory_sit, 8. rotation_foot_left_leg, 9. play_guitar, 10. Mandatory_sit, 11. rotation_foot_left_leg, 12. rotation_handgun_object, 13. Mandatory_zero, 14. superman, 15. union_arms, 16. Mandatory_sit, 17. superman, 18. Mandatory_sit, 19. rotation_foot_left_leg, 20. rotation_foot_right_leg, 21. Mandatory_hello, 22. Mandatory_wipe_forhead, 23. Mandatory_hello, 24. Mandatory_wipe_forhead, 25. FINAL_crouch.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Few-Shot created example FOLK:
+1. INITIAL_stand_init 2. Mandatory_hello 3. arms_dance 4. move_forward 5. play_guitar 6. diagonal_right 7. Mandatory_wipe_forehead 8. move_backward 9. double_movement_rotation_of_arms 10. Mandatory_stand 11. rotation_foot_right_leg 12. birthday_dance 13. play_guitar 14. Mandatory_sit 15. rotation_handgun_object 16. union_arms 17. move_backward 18. workout_legs_and_arms 19. move_forward 20. Mandatory_zero 21. superman 22. sprinkler_dance 23. diagonal_left 24. Mandatory_hello 25. FINAL_crouch.
+Human feedback:
+Modify the choreography by following these requests: 1) replace position 3 with an opening arm movement, 2) add an additional upper body position after position wipe_forehead, 3) replace position sprinkler_dance with a workout movement.
+
+Few-Shot created example ELECTRONIC:
+1. INITIAL_stand_init, 2. play_guitar, 3. move_forward, 4. Mandatory_hello, 5. arms_dance, 6. double_movement_rotation_of_arms, 7. move_backward, 8. rotation_foot_left_leg, 9. birthday_dance, 10. Mandatory_sit, 11. rotation_handgun_object, 12. superman, 13. Mandatory_wipe_forehead, 14. move_forward, 15. diagonal_right, 16. Mandatory_stand, 17. sprinkler_dance, 18. union_arms, 19. move_backward, 20. Mandatory_zero, 21. rotation_foot_right_leg, 22. workout_legs_and_arms, 23. diagonal_left, 24. FINAL_crouch.
+Human feedback:
+Modify the choreography by following these requests: 1) add an additional 'move' position after stand_init, 2) place position 4 as third position, 3) remove workout from position 22, 4) place 'birthday_dance' before 'superman', and 'sprinkler' after 'superman'.
+
+Few-Shot created example ROCK:
+1. INITIAL_stand_init 2. arms_opening 3. Mandatory_wipe_forehead 4. play_guitar 5. move_forward 6. superman 7. Mandatory_sit 8. move_backward 9. birthday_dance 10. Mandatory_hello 11. rotation_foot_right_leg 12. diagonal_left 13. Mandatory_stand 14. workout_legs_and_arms 15. play_guitar 16. superman 17. Mandatory_zero 18. move_forward 19. rotation_handgun_object 20. arms_dance 21. move_forward 22. Mandatory_hello 23. sprinkler_dance 24. union_arms 25. FINAL_crouch.
+Human feedback:
+Modify the choreography by following these requests: 1) replace position 4 with hello and remove hello position from the remaining positions, 2) place move and play guitar before position birthday_dance, 3) swap positions move and arms_dance.
+
+Few-Shot created example LATIN:
+1. INITIAL_stand_init 2. play_guitar 3. Mandatory_hello 4. arms_opening 5. move_forward 6. Mandatory_wipe_forehead 7. rotation_foot_left_leg 8. arms_dance 9. workout_legs_and_arms 10. diagonal_right 11. Mandatory_sit 12. superman 13. move_backward 14. Mandatory_stand 15. birthday_dance 16. rotation_handgun_object 17. Mandatory_zero 18. right_arm_rotation 19. diagonal_left 20. union_arms 21. Mandatory_sit 22. sprinkler_dance 23. rotation_foot_right_leg 24. FINAL_crouch.
+Human feedback:
+Modify the choreography by following these requests: 1) replace position 4 with move and arm dance, 2) replace position 8 with play guitar, 3) add a diagonal before birthday_dance, 4) add a rotation foot before sprinkler_dance.
+
+Few-Shot created example CLASSICAL:
+1. INITIAL_stand_init 2. arms_opening 3. Mandatory_stand 4. move_forward 5. superman 6. play_guitar 7. Mandatory_sit 8. rotation_foot_right_leg 9. double_movement_rotation_of_arms 10. arms_opening 11. diagonal_right 12. Mandatory_wipe_forehead 13. play_guitar 14. move_backward 15. Mandatory_hello 16. birthday_dance 17. rotation_handgun_object 18. Mandatory_zero 19. rotation_foot_left_leg 20. union_arms 21. sprinkler_dance 22. Mandatory_hello 23. workout_legs_and_arms 24. Mandatory_sit 25. FINAL_crouch.
+Human feedback:
+Modify the choreography by following these requests: 1) replace play_guitar with a rotation foot movement, 2) replace birthday_dance with arms_opening, 3) replace sprinkler_dance with a arm rotation movement, 4) remove the first hello movement.
+
+
+  

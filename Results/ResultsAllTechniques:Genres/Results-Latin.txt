@@ -1,0 +1,104 @@
+Choreography for the Latin song "Live Your Own Life" by texasradiofish
+
+Zero-Shot
+1. [INITIAL_stand_init]
+2. [Mandatory_wipe_forehead]
+3. [arms_opening]
+4. [Mandatory_hello]
+5. [play_guitar]
+6. [move_forward]
+7. [Mandatory_sit]
+8. [birthday_dance]
+9. [double_movement_rotation_of_arms]
+10. [Mandatory_stand]
+11. [superman]
+12. [rotation_foot_left_leg]
+13. [Mandatory_zero]
+14. [arms_dance]
+15. [diagonal_left]
+16. [move_backward]
+17. [union_arms]
+18. [diagonal_right]
+19. [rotation_handgun_object]
+20. [right_arm_rotation]
+21. [workout_legs_and_arms]
+22. [FINAL_crouch]
+
+
+Few-Shot
+1. INITIAL_stand_init
+2. play_guitar
+3. Mandatory_hello
+4. arms_opening
+5. move_forward
+6. Mandatory_wipe_forehead
+7. rotation_foot_left_leg
+8. arms_dance
+9. workout_legs_and_arms
+10. diagonal_right
+11. Mandatory_sit
+12. superman
+13. move_backward
+14. Mandatory_stand
+15. birthday_dance
+16. rotation_handgun_object
+17. Mandatory_zero
+18. right_arm_rotation
+19. diagonal_left
+20. union_arms
+21. Mandatory_sit
+22. sprinkler_dance
+23. rotation_foot_left_leg
+24. FINAL_crouch
+
+Motivations:
+- The choreography starts with the initial stand position to set the stage for the performance.
+- The use of mandatory positions such as wipe_forehead, hello, sit, stand, and zero adds a narrative element to the choreography, creating a sense of interaction and expression.
+- The selection of intermediate positions such as play_guitar, birthday_dance, superman, and arms_dance adds dynamic and visually engaging movements to complement the lively Latin music.
+- The sequence of movements is designed to flow with the rhythm and energy of the song, incorporating both subtle and expressive gestures to convey the spirit of 'Live Your Own Life'.
+- The choreography concludes with the FINAL_crouch position, creating a sense of closure and bringing the performance to a dramatic finish.
+
+
+Few-Shot Feedback
+1. INITIAL_stand_init
+2. play_guitar
+3. Mandatory_hello
+4. move_forward
+5. arms_opening
+6. move_forward
+7. Mandatory_wipe_forehead
+8. rotation_foot_left_leg
+9. play_guitar
+10. workout_legs_and_arms
+11. diagonal_right
+12. Mandatory_sit
+13. superman
+14. move_backward
+15. Mandatory_stand
+16. diagonal_right
+17. birthday_dance
+18. rotation_handgun_object
+19. Mandatory_zero
+20. right_arm_rotation
+21. diagonal_left
+22. union_arms
+23. Mandatory_sit
+24. sprinkler_dance
+25. rotation_foot_right_leg
+26. FINAL_crouch
+
+Motivations:
+1. The choreography starts with the NAO robot in a neutral standing position to prepare for the dance routine.
+2. "Play_guitar" is chosen to synchronize with the Latin music's rhythm and add a visually appealing movement to the choreography.
+3. "Mandatory_hello" is strategically placed to engage with the audience and bring a friendly gesture to the dance.
+4. "Arms_opening" and "move_forward" are used to create a dynamic and engaging sequence, reflecting the upbeat nature of the Latin music.
+5. "Mandatory_wipe_forehead" is included to add a human-like gesture and expression to the robot's movements.
+6. "Rotation_foot_left_leg" and "arms_dance" are incorporated to showcase the robot's versatility in movement and coordination.
+7. "Workout_legs_and_arms" is added to bring an energetic and fun element to the choreography, aligning with the lively Latin music.
+8. "Diagonal_right" and "Mandatory_sit" are used to create a contrasting sequence, adding variety and interest to the performance.
+9. "Superman" is included to demonstrate the robot's ability to perform dynamic and visually captivating movements.
+10. "Move_backward" and "Mandatory_stand" are placed strategically to transition the choreography smoothly while maintaining the energy and engagement.
+11. "Birthday_dance" and "rotation_handgun_object" are incorporated to bring a celebratory and expressive element to the choreography.
+12. "Mandatory_zero," "right_arm_rotation," "diagonal_left," "union_arms," "Mandatory_sit," "sprinkler_dance," and "rotation_foot_right_leg" are strategically placed to create a varied and engaging sequence leading to the conclusion of the performance in the "FINAL_crouch" position.
+
+The choreography is designed to complement the Latin music "Live Your Own Life" by texasradiofish by incorporating lively, dynamic, and expressive movements that align with the rhythm, energy, and celebratory nature of the song. The sequence aims to showcase the NAO robot's versatility, expressiveness, and ability to engage and entertain the audience in a synchronized and captivating performance.

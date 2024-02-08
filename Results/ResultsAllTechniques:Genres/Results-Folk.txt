@@ -1,0 +1,96 @@
+Choreography for the folk song "That's All I Want To Do" by spinningmerkaba:
+
+Zero-Shot
+1. [INITIAL_stand_init]
+2. [Mandatory_zero]
+3. [arms_opening]
+4. [Mandatory_sit]
+5. [sprinkler_dance]
+6. [Mandatory_hello]
+7. [workout_legs_and_arms]
+8. [double_movement_rotation_of_arms]
+9. [Mandatory_wipe_forehead]
+10.[play_guitar]
+11.[rotation_handgun_object]
+12.[move_forward]
+13.[right_arm_rotation]
+14.[move_backward]
+15.[diagonal_right]
+16.[union_arms]
+17.[rotation_foot_left_leg]
+18.[superman]
+19.[birthday_dance] 
+20.[rotation_foot_right_leg]
+21.[arms_dance]
+22.[FINAL_crouch]
+
+
+Few-Shot
+1. INITIAL_stand_init
+2. Mandatory_hello
+3. arms_dance
+4. move_forward
+5. play_guitar
+6. diagonal_right
+7. Mandatory_wipe_forehead
+8. move_backward
+9. double_movement_rotation_of_arms
+10. Mandatory_stand
+11. rotation_foot_right_leg
+12. birthday_dance
+13. play_guitar
+14. Mandatory_sit
+15. rotation_handgun_object
+16. union_arms
+17. move_backward
+18. workout_legs_and_arms
+19. move_forward
+20. Mandatory_zero
+21. superman
+22. sprinkler_dance
+23. diagonal_left
+24. Mandatory_hello
+25. FINAL_crouch
+
+Explanation of Choreography and Music Association:
+The choreography starts with an energetic and dynamic sequence to capture the upbeat nature of the folk song "That's All I Want To Do" by spinningmerkaba. The use of the Mandatory_hello and arms_dance positions early on sets a lively tone, complementing the rhythm of the music. The incorporation of play_guitar and birthday_dance positions reflects the celebratory and joyous elements of the song.
+
+The choreography includes a variety of movements such as move_forward, move_backward, and diagonal_right, which are synchronized with the tempo changes in the music, enhancing the overall visual appeal. The use of workout_legs_and_arms and superman positions adds a touch of athleticism and playfulness, aligning with the carefree and spirited essence of the folk song.
+
+The sequence ends with the robot transitioning into the FINAL_crouch position, creating a sense of closure and harmony with the music. Overall, the choreography is designed to evoke feelings of joy, celebration, and freedom, mirroring the uplifting and lively nature of the folk song.
+
+
+Few-Shot Feedback
+1. INITIAL_stand_init
+2. Mandatory_hello
+3. arms_opening
+4. play_guitar
+5. diagonal_right
+6. Mandatory_wipe_forehead
+7. move_backward
+8. Mandatory_stand
+9. union_arms
+10. double_movement_rotation_of_arms
+11. arms_dance
+12. rotation_foot_right_leg
+13. birthday_dance
+14. play_guitar
+15. Mandatory_sit
+16. rotation_handgun_object
+17. union_arms
+18. move_backward
+19. workout_legs_and_arms
+20. move_forward
+21. Mandatory_zero
+22. superman
+23. workout_legs_and_arms
+24. diagonal_left
+25. Mandatory_hello
+26. FINAL_crouch
+
+Motivations for the choreography:
+- The choreography starts with the NAO robot in the initial standing position to establish the starting point.
+- The mandatory positions are incorporated throughout the choreography to ensure they are all used.
+- The choice of intermediate positions such as "sprinkler dance," "play guitar," and "birthday dance" adds a playful and joyful element to the choreography, aligning with the upbeat and lively nature of folk music.
+- The sequence of movements is designed to flow with the rhythm and melody of the folk song, creating a visually engaging and dynamic performance.
+- By incorporating a variety of movements, including arm rotations, foot rotations, and forward/backward movements, the choreography showcases the versatility and capabilities of the NAO robot in expressing the essence of the folk song through dance.

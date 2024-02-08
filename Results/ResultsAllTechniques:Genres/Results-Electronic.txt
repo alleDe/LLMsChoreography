@@ -1,0 +1,96 @@
+Choreography for the electronic song "Coming Home" by Snowflake
+
+Zero-Shot
+1. [INITIAL_stand_init]
+2. [arms_dance]
+3. [Mandatory_wipe_forehead]
+4. [play_guitar]
+5. [Mandatory_sit]
+6. [rotation_handgun_object]
+7. [move_forward]
+8. [birthday_dance]
+9. [Mandatory_hello]
+10. [rotation_foot_left_leg]
+11. [arms_opening]
+12. [move_backward]
+13. [workout_legs_and_arms]
+14. [double_movement_rotation_of_arms]
+15. [superman]
+16. [union_arms]
+17. [diagonal_left]
+18. [Mandatory_zero]
+19. [right_arm_rotation]
+20. [sprinkler_dance]
+21. [FINAL_crouch]
+
+
+Few-Shot
+1. INITIAL_stand_init, 
+2. play_guitar, 
+3. move_forward, 
+4. Mandatory_hello, 
+5. arms_dance, 
+6. double_movement_rotation_of_arms, 
+7. move_backward, 
+8. rotation_foot_left_leg, 
+9. birthday_dance, 
+10. Mandatory_sit, 
+11. rotation_handgun_object, 
+12. superman, 
+13. Mandatory_wipe_forehead, 
+14. move_forward, 
+15. diagonal_right, 
+16. Mandatory_stand, 
+17. sprinkler_dance, 
+18. union_arms, 
+19. move_backward, 
+20. Mandatory_zero, 
+21. rotation_foot_right_leg, 
+22. workout_legs_and_arms, 
+23. diagonal_left, 
+24. FINAL_crouch.
+
+Explanation of the choreography:
+
+The choreography starts with the NAO robot in the initial standing position to establish a starting point for the dance.
+
+The choreography is designed to complement the electronic song "Coming Home" by Snowflake by incorporating dynamic, engaging, and visually stimulating movements that synchronize with the music's rhythm and energy. The strategic placement of mandatory and intermediate positions adds variety and surprise elements to the choreography, creating an entertaining and memorable performance that captivates the audience's attention.
+
+
+
+Few-Shot Feedback
+1. INITIAL_stand_init, 
+2. move_forward, 
+3. Mandatory_hello,
+4. play_guitar, 
+5. move_forward, 
+6. arms_dance, 
+7. double_movement_rotation_of_arms, 
+8. move_backward, 
+9. rotation_foot_left_leg, 
+10. Mandatory_sit, 
+11. rotation_handgun_object, 
+12. Mandatory_stand, 
+13. birthday_dance, 
+14. superman,
+15. Mandatory_wipe_forehead, 
+16. sprinkler_dance, 
+17. move_forward, 
+18. move_forward, 
+19. diagonal_right, 
+20. union_arms, 
+21. move_backward, 
+22. Mandatory_zero, 
+23. rotation_foot_right_leg,  
+24. diagonal_left, 
+25. FINAL_crouch.
+
+Explanation:
+1. The choreography starts with the INITIAL_stand_init position to establish the robot's starting point.
+2. The play_guitar position is chosen to synchronize with the electronic music's rhythm and create an engaging visual effect.
+3. The use of move_forward and move_backward positions adds dynamism and movement to the choreography, enhancing the visual appeal.
+4. Mandatory positions are strategically placed to break the sequence of intermediate positions and add emphasis to key moments in the music.
+5. The incorporation of birthday_dance and sprinkler_dance positions adds a playful and celebratory element to the choreography, aligning with the energetic and upbeat nature of the electronic song.
+6. The choreography culminates with the robot transitioning into the FINAL_crouch position, creating a visually impactful conclusion to the performance.
+
+Overall, the choreography is designed to complement the electronic music by incorporating a mix of dynamic movements, playful gestures, and impactful poses. The sequence of positions is carefully arranged to maintain a lively and engaging performance that resonates with the energetic and pulsating rhythm of the music, creating a visually captivating dance routine for the NAO robot.
